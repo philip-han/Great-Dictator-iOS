@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		900FC6CA28EA1EE20099B14C /* Great_DictatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FC6C928EA1EE20099B14C /* Great_DictatorApp.swift */; };
+		900FC6CC28EA1EE20099B14C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FC6CB28EA1EE20099B14C /* ContentView.swift */; };
+		900FC6CE28EA1EE40099B14C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900FC6CD28EA1EE40099B14C /* Assets.xcassets */; };
+		900FC6D128EA1EE40099B14C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900FC6D028EA1EE40099B14C /* Preview Assets.xcassets */; };
+		900FC6DB28EA1EE40099B14C /* Great_DictatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FC6DA28EA1EE40099B14C /* Great_DictatorTests.swift */; };
+		900FC6E528EA1EE40099B14C /* Great_DictatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FC6E428EA1EE40099B14C /* Great_DictatorUITests.swift */; };
+		900FC6E728EA1EE40099B14C /* Great_DictatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900FC6E628EA1EE40099B14C /* Great_DictatorUITestsLaunchTests.swift */; };
+		900FC6F528EA25CB0099B14C /* libz.1.2.11.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC6F428EA25CB0099B14C /* libz.1.2.11.tbd */; };
+		900FC71428EA26360099B14C /* libjavajpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC6F628EA26350099B14C /* libjavajpeg.a */; };
+		900FC71528EA26360099B14C /* libsyslookup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC6F728EA26350099B14C /* libsyslookup.a */; };
+		900FC71628EA26360099B14C /* libfontmanager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC6F828EA26350099B14C /* libfontmanager.a */; };
+		900FC71728EA26360099B14C /* libawt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC6F928EA26350099B14C /* libawt.a */; };
+		900FC71828EA26360099B14C /* liblcms.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC6FA28EA26350099B14C /* liblcms.a */; };
+		900FC71928EA26360099B14C /* libjdwp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC6FB28EA26350099B14C /* libjdwp.a */; };
+		900FC71A28EA26360099B14C /* libjaas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC6FC28EA26350099B14C /* libjaas.a */; };
+		900FC71B28EA26360099B14C /* libj2gss.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC6FD28EA26350099B14C /* libj2gss.a */; };
+		900FC71C28EA26360099B14C /* libj2pcsc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC6FE28EA26350099B14C /* libj2pcsc.a */; };
+		900FC71D28EA26360099B14C /* libj2pkcs11.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC6FF28EA26350099B14C /* libj2pkcs11.a */; };
+		900FC71E28EA26360099B14C /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC70028EA26350099B14C /* libfreetype.a */; };
+		900FC71F28EA26360099B14C /* libinstrument.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC70128EA26350099B14C /* libinstrument.a */; };
+		900FC72028EA26360099B14C /* libjava.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC70228EA26350099B14C /* libjava.a */; };
+		900FC72128EA26360099B14C /* libfdlibm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC70328EA26350099B14C /* libfdlibm.a */; };
+		900FC72228EA26360099B14C /* libextnet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC70428EA26350099B14C /* libextnet.a */; };
+		900FC72328EA26360099B14C /* libnet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC70528EA26350099B14C /* libnet.a */; };
+		900FC72428EA26360099B14C /* libjsig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC70628EA26350099B14C /* libjsig.a */; };
+		900FC72528EA26360099B14C /* librmi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC70728EA26350099B14C /* librmi.a */; };
+		900FC72628EA26360099B14C /* libjimage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC70828EA26350099B14C /* libjimage.a */; };
+		900FC72728EA26360099B14C /* libverify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC70928EA26350099B14C /* libverify.a */; };
+		900FC72828EA26360099B14C /* libmanagement.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC70A28EA26350099B14C /* libmanagement.a */; };
+		900FC72928EA26360099B14C /* libprefs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC70B28EA26350099B14C /* libprefs.a */; };
+		900FC72A28EA26360099B14C /* libattach.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC70C28EA26350099B14C /* libattach.a */; };
+		900FC72B28EA26360099B14C /* libjli.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC70D28EA26350099B14C /* libjli.a */; };
+		900FC72C28EA26360099B14C /* libmlib_image.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC70E28EA26350099B14C /* libmlib_image.a */; };
+		900FC72D28EA26360099B14C /* libawt_headless.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC70F28EA26360099B14C /* libawt_headless.a */; };
+		900FC72E28EA26360099B14C /* libmanagement_agent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC71028EA26360099B14C /* libmanagement_agent.a */; };
+		900FC72F28EA26360099B14C /* libzip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC71128EA26360099B14C /* libzip.a */; };
+		900FC73028EA26360099B14C /* libdt_socket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC71228EA26360099B14C /* libdt_socket.a */; };
+		900FC73128EA26360099B14C /* libnio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900FC71328EA26360099B14C /* libnio.a */; };
+		901E91852900C8D600EEB7C9 /* URLSession.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901E91842900C8D600EEB7C9 /* URLSession.ext.swift */; };
+		9028F33328EB9D1700C123EA /* GraalThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9028F33128EB9D1700C123EA /* GraalThread.swift */; };
+		9028F33428EB9D1700C123EA /* String+UnsafeMutablePointer+CChar.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9028F33228EB9D1700C123EA /* String+UnsafeMutablePointer+CChar.ext.swift */; };
+		90B19A6A28EBA4A30004A00C /* graal_interface.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B19A6928EBA4A30004A00C /* graal_interface.o */; };
+		90B19A6C28EBA4CD0004A00C /* Dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B19A6B28EBA4CD0004A00C /* Dummy.m */; };
+		90C637EC28ECB349006A548A /* SpeechCoreWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C637EB28ECB349006A548A /* SpeechCoreWrapper.swift */; };
+		90C637EE28ECB3A1006A548A /* SwiftSpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C637ED28ECB3A1006A548A /* SwiftSpeechRecognizer.swift */; };
+		90C637F028ECBD09006A548A /* CSpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C637EF28ECBD09006A548A /* CSpeechRecognizer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		900FC6D728EA1EE40099B14C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 900FC6BE28EA1EE20099B14C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 900FC6C528EA1EE20099B14C;
+			remoteInfo = "Great Dictator";
+		};
+		900FC6E128EA1EE40099B14C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 900FC6BE28EA1EE20099B14C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 900FC6C528EA1EE20099B14C;
+			remoteInfo = "Great Dictator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		900FC6C628EA1EE20099B14C /* Great Dictator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Great Dictator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		900FC6C928EA1EE20099B14C /* Great_DictatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Great_DictatorApp.swift; sourceTree = "<group>"; };
+		900FC6CB28EA1EE20099B14C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		900FC6CD28EA1EE40099B14C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		900FC6D028EA1EE40099B14C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		900FC6D628EA1EE40099B14C /* Great DictatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Great DictatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		900FC6DA28EA1EE40099B14C /* Great_DictatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Great_DictatorTests.swift; sourceTree = "<group>"; };
+		900FC6E028EA1EE40099B14C /* Great DictatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Great DictatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		900FC6E428EA1EE40099B14C /* Great_DictatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Great_DictatorUITests.swift; sourceTree = "<group>"; };
+		900FC6E628EA1EE40099B14C /* Great_DictatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Great_DictatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		900FC6F428EA25CB0099B14C /* libz.1.2.11.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.11.tbd; path = usr/lib/libz.1.2.11.tbd; sourceTree = SDKROOT; };
+		900FC6F628EA26350099B14C /* libjavajpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjavajpeg.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libjavajpeg.a"; sourceTree = "<group>"; };
+		900FC6F728EA26350099B14C /* libsyslookup.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsyslookup.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libsyslookup.a"; sourceTree = "<group>"; };
+		900FC6F828EA26350099B14C /* libfontmanager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfontmanager.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libfontmanager.a"; sourceTree = "<group>"; };
+		900FC6F928EA26350099B14C /* libawt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libawt.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libawt.a"; sourceTree = "<group>"; };
+		900FC6FA28EA26350099B14C /* liblcms.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblcms.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/liblcms.a"; sourceTree = "<group>"; };
+		900FC6FB28EA26350099B14C /* libjdwp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjdwp.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libjdwp.a"; sourceTree = "<group>"; };
+		900FC6FC28EA26350099B14C /* libjaas.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjaas.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libjaas.a"; sourceTree = "<group>"; };
+		900FC6FD28EA26350099B14C /* libj2gss.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libj2gss.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libj2gss.a"; sourceTree = "<group>"; };
+		900FC6FE28EA26350099B14C /* libj2pcsc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libj2pcsc.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libj2pcsc.a"; sourceTree = "<group>"; };
+		900FC6FF28EA26350099B14C /* libj2pkcs11.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libj2pkcs11.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libj2pkcs11.a"; sourceTree = "<group>"; };
+		900FC70028EA26350099B14C /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libfreetype.a"; sourceTree = "<group>"; };
+		900FC70128EA26350099B14C /* libinstrument.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libinstrument.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libinstrument.a"; sourceTree = "<group>"; };
+		900FC70228EA26350099B14C /* libjava.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjava.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libjava.a"; sourceTree = "<group>"; };
+		900FC70328EA26350099B14C /* libfdlibm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfdlibm.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libfdlibm.a"; sourceTree = "<group>"; };
+		900FC70428EA26350099B14C /* libextnet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libextnet.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libextnet.a"; sourceTree = "<group>"; };
+		900FC70528EA26350099B14C /* libnet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnet.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libnet.a"; sourceTree = "<group>"; };
+		900FC70628EA26350099B14C /* libjsig.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjsig.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libjsig.a"; sourceTree = "<group>"; };
+		900FC70728EA26350099B14C /* librmi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librmi.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/librmi.a"; sourceTree = "<group>"; };
+		900FC70828EA26350099B14C /* libjimage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjimage.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libjimage.a"; sourceTree = "<group>"; };
+		900FC70928EA26350099B14C /* libverify.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libverify.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libverify.a"; sourceTree = "<group>"; };
+		900FC70A28EA26350099B14C /* libmanagement.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmanagement.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libmanagement.a"; sourceTree = "<group>"; };
+		900FC70B28EA26350099B14C /* libprefs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprefs.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libprefs.a"; sourceTree = "<group>"; };
+		900FC70C28EA26350099B14C /* libattach.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libattach.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libattach.a"; sourceTree = "<group>"; };
+		900FC70D28EA26350099B14C /* libjli.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjli.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libjli.a"; sourceTree = "<group>"; };
+		900FC70E28EA26350099B14C /* libmlib_image.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmlib_image.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libmlib_image.a"; sourceTree = "<group>"; };
+		900FC70F28EA26360099B14C /* libawt_headless.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libawt_headless.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libawt_headless.a"; sourceTree = "<group>"; };
+		900FC71028EA26360099B14C /* libmanagement_agent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmanagement_agent.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libmanagement_agent.a"; sourceTree = "<group>"; };
+		900FC71128EA26360099B14C /* libzip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzip.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libzip.a"; sourceTree = "<group>"; };
+		900FC71228EA26360099B14C /* libdt_socket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdt_socket.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libdt_socket.a"; sourceTree = "<group>"; };
+		900FC71328EA26360099B14C /* libnio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnio.a; path = "../../../.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-x86_64/staticjdk/lib/static/libnio.a"; sourceTree = "<group>"; };
+		901E91842900C8D600EEB7C9 /* URLSession.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession.ext.swift; sourceTree = "<group>"; };
+		9028F33128EB9D1700C123EA /* GraalThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraalThread.swift; sourceTree = "<group>"; };
+		9028F33228EB9D1700C123EA /* String+UnsafeMutablePointer+CChar.ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+UnsafeMutablePointer+CChar.ext.swift"; sourceTree = "<group>"; };
+		9028F33528EB9DCC00C123EA /* Great Dictator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Great Dictator-Bridging-Header.h"; sourceTree = "<group>"; };
+		90B19A6928EBA4A30004A00C /* graal_interface.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = graal_interface.o; path = ../../../src/dictator_graal/graal_interface/build/native/nativeCompile/graal_interface.o; sourceTree = "<group>"; };
+		90B19A6B28EBA4CD0004A00C /* Dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dummy.m; sourceTree = "<group>"; };
+		90B9D9A9290E41EB008438AA /* development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = development.xcconfig; sourceTree = "<group>"; };
+		90C637EB28ECB349006A548A /* SpeechCoreWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechCoreWrapper.swift; sourceTree = "<group>"; };
+		90C637ED28ECB3A1006A548A /* SwiftSpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSpeechRecognizer.swift; sourceTree = "<group>"; };
+		90C637EF28ECBD09006A548A /* CSpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSpeechRecognizer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		900FC6C328EA1EE20099B14C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900FC71428EA26360099B14C /* libjavajpeg.a in Frameworks */,
+				900FC71528EA26360099B14C /* libsyslookup.a in Frameworks */,
+				900FC71628EA26360099B14C /* libfontmanager.a in Frameworks */,
+				900FC71728EA26360099B14C /* libawt.a in Frameworks */,
+				900FC71828EA26360099B14C /* liblcms.a in Frameworks */,
+				900FC71928EA26360099B14C /* libjdwp.a in Frameworks */,
+				900FC71A28EA26360099B14C /* libjaas.a in Frameworks */,
+				900FC71B28EA26360099B14C /* libj2gss.a in Frameworks */,
+				900FC71C28EA26360099B14C /* libj2pcsc.a in Frameworks */,
+				900FC71D28EA26360099B14C /* libj2pkcs11.a in Frameworks */,
+				900FC71E28EA26360099B14C /* libfreetype.a in Frameworks */,
+				900FC71F28EA26360099B14C /* libinstrument.a in Frameworks */,
+				900FC72028EA26360099B14C /* libjava.a in Frameworks */,
+				900FC72128EA26360099B14C /* libfdlibm.a in Frameworks */,
+				900FC72228EA26360099B14C /* libextnet.a in Frameworks */,
+				900FC72328EA26360099B14C /* libnet.a in Frameworks */,
+				900FC72428EA26360099B14C /* libjsig.a in Frameworks */,
+				900FC72528EA26360099B14C /* librmi.a in Frameworks */,
+				900FC72628EA26360099B14C /* libjimage.a in Frameworks */,
+				900FC72728EA26360099B14C /* libverify.a in Frameworks */,
+				900FC72828EA26360099B14C /* libmanagement.a in Frameworks */,
+				900FC72928EA26360099B14C /* libprefs.a in Frameworks */,
+				900FC72A28EA26360099B14C /* libattach.a in Frameworks */,
+				900FC72B28EA26360099B14C /* libjli.a in Frameworks */,
+				900FC72C28EA26360099B14C /* libmlib_image.a in Frameworks */,
+				900FC72D28EA26360099B14C /* libawt_headless.a in Frameworks */,
+				900FC72E28EA26360099B14C /* libmanagement_agent.a in Frameworks */,
+				900FC72F28EA26360099B14C /* libzip.a in Frameworks */,
+				900FC73028EA26360099B14C /* libdt_socket.a in Frameworks */,
+				900FC73128EA26360099B14C /* libnio.a in Frameworks */,
+				900FC6F528EA25CB0099B14C /* libz.1.2.11.tbd in Frameworks */,
+				90B19A6A28EBA4A30004A00C /* graal_interface.o in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900FC6D328EA1EE40099B14C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900FC6DD28EA1EE40099B14C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		900FC6BD28EA1EE20099B14C = {
+			isa = PBXGroup;
+			children = (
+				90B9D9A9290E41EB008438AA /* development.xcconfig */,
+				900FC6C828EA1EE20099B14C /* Great Dictator */,
+				900FC6D928EA1EE40099B14C /* Great DictatorTests */,
+				900FC6E328EA1EE40099B14C /* Great DictatorUITests */,
+				900FC6C728EA1EE20099B14C /* Products */,
+				900FC6F328EA25CA0099B14C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		900FC6C728EA1EE20099B14C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				900FC6C628EA1EE20099B14C /* Great Dictator.app */,
+				900FC6D628EA1EE40099B14C /* Great DictatorTests.xctest */,
+				900FC6E028EA1EE40099B14C /* Great DictatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		900FC6C828EA1EE20099B14C /* Great Dictator */ = {
+			isa = PBXGroup;
+			children = (
+				90C637ED28ECB3A1006A548A /* SwiftSpeechRecognizer.swift */,
+				90B19A6B28EBA4CD0004A00C /* Dummy.m */,
+				9028F33028EB9B5300C123EA /* graal */,
+				900FC6C928EA1EE20099B14C /* Great_DictatorApp.swift */,
+				900FC6CB28EA1EE20099B14C /* ContentView.swift */,
+				900FC6CD28EA1EE40099B14C /* Assets.xcassets */,
+				900FC6CF28EA1EE40099B14C /* Preview Content */,
+				9028F33528EB9DCC00C123EA /* Great Dictator-Bridging-Header.h */,
+			);
+			path = "Great Dictator";
+			sourceTree = "<group>";
+		};
+		900FC6CF28EA1EE40099B14C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				900FC6D028EA1EE40099B14C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		900FC6D928EA1EE40099B14C /* Great DictatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				900FC6DA28EA1EE40099B14C /* Great_DictatorTests.swift */,
+			);
+			path = "Great DictatorTests";
+			sourceTree = "<group>";
+		};
+		900FC6E328EA1EE40099B14C /* Great DictatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				900FC6E428EA1EE40099B14C /* Great_DictatorUITests.swift */,
+				900FC6E628EA1EE40099B14C /* Great_DictatorUITestsLaunchTests.swift */,
+			);
+			path = "Great DictatorUITests";
+			sourceTree = "<group>";
+		};
+		900FC6F328EA25CA0099B14C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90B19A6928EBA4A30004A00C /* graal_interface.o */,
+				900FC70C28EA26350099B14C /* libattach.a */,
+				900FC70F28EA26360099B14C /* libawt_headless.a */,
+				900FC6F928EA26350099B14C /* libawt.a */,
+				900FC71228EA26360099B14C /* libdt_socket.a */,
+				900FC70428EA26350099B14C /* libextnet.a */,
+				900FC70328EA26350099B14C /* libfdlibm.a */,
+				900FC6F828EA26350099B14C /* libfontmanager.a */,
+				900FC70028EA26350099B14C /* libfreetype.a */,
+				900FC70128EA26350099B14C /* libinstrument.a */,
+				900FC6FD28EA26350099B14C /* libj2gss.a */,
+				900FC6FE28EA26350099B14C /* libj2pcsc.a */,
+				900FC6FF28EA26350099B14C /* libj2pkcs11.a */,
+				900FC6FC28EA26350099B14C /* libjaas.a */,
+				900FC70228EA26350099B14C /* libjava.a */,
+				900FC6F628EA26350099B14C /* libjavajpeg.a */,
+				900FC6FB28EA26350099B14C /* libjdwp.a */,
+				900FC70828EA26350099B14C /* libjimage.a */,
+				900FC70D28EA26350099B14C /* libjli.a */,
+				900FC70628EA26350099B14C /* libjsig.a */,
+				900FC6FA28EA26350099B14C /* liblcms.a */,
+				900FC71028EA26360099B14C /* libmanagement_agent.a */,
+				900FC70A28EA26350099B14C /* libmanagement.a */,
+				900FC70E28EA26350099B14C /* libmlib_image.a */,
+				900FC70528EA26350099B14C /* libnet.a */,
+				900FC71328EA26360099B14C /* libnio.a */,
+				900FC70B28EA26350099B14C /* libprefs.a */,
+				900FC70728EA26350099B14C /* librmi.a */,
+				900FC6F728EA26350099B14C /* libsyslookup.a */,
+				900FC70928EA26350099B14C /* libverify.a */,
+				900FC71128EA26360099B14C /* libzip.a */,
+				900FC6F428EA25CB0099B14C /* libz.1.2.11.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9028F33028EB9B5300C123EA /* graal */ = {
+			isa = PBXGroup;
+			children = (
+				90DB4AF3290214CA00DC0257 /* lib */,
+				90C637EB28ECB349006A548A /* SpeechCoreWrapper.swift */,
+				90C637EF28ECBD09006A548A /* CSpeechRecognizer.swift */,
+			);
+			path = graal;
+			sourceTree = "<group>";
+		};
+		90DB4AF3290214CA00DC0257 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				9028F33128EB9D1700C123EA /* GraalThread.swift */,
+				901E91842900C8D600EEB7C9 /* URLSession.ext.swift */,
+				9028F33228EB9D1700C123EA /* String+UnsafeMutablePointer+CChar.ext.swift */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		900FC6C528EA1EE20099B14C /* Great Dictator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900FC6EA28EA1EE40099B14C /* Build configuration list for PBXNativeTarget "Great Dictator" */;
+			buildPhases = (
+				900FC6C228EA1EE20099B14C /* Sources */,
+				900FC6C328EA1EE20099B14C /* Frameworks */,
+				900FC6C428EA1EE20099B14C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Great Dictator";
+			productName = "Great Dictator";
+			productReference = 900FC6C628EA1EE20099B14C /* Great Dictator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		900FC6D528EA1EE40099B14C /* Great DictatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900FC6ED28EA1EE40099B14C /* Build configuration list for PBXNativeTarget "Great DictatorTests" */;
+			buildPhases = (
+				900FC6D228EA1EE40099B14C /* Sources */,
+				900FC6D328EA1EE40099B14C /* Frameworks */,
+				900FC6D428EA1EE40099B14C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				900FC6D828EA1EE40099B14C /* PBXTargetDependency */,
+			);
+			name = "Great DictatorTests";
+			productName = "Great DictatorTests";
+			productReference = 900FC6D628EA1EE40099B14C /* Great DictatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		900FC6DF28EA1EE40099B14C /* Great DictatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900FC6F028EA1EE40099B14C /* Build configuration list for PBXNativeTarget "Great DictatorUITests" */;
+			buildPhases = (
+				900FC6DC28EA1EE40099B14C /* Sources */,
+				900FC6DD28EA1EE40099B14C /* Frameworks */,
+				900FC6DE28EA1EE40099B14C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				900FC6E228EA1EE40099B14C /* PBXTargetDependency */,
+			);
+			name = "Great DictatorUITests";
+			productName = "Great DictatorUITests";
+			productReference = 900FC6E028EA1EE40099B14C /* Great DictatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		900FC6BE28EA1EE20099B14C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					900FC6C528EA1EE20099B14C = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+					900FC6D528EA1EE40099B14C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 900FC6C528EA1EE20099B14C;
+					};
+					900FC6DF28EA1EE40099B14C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 900FC6C528EA1EE20099B14C;
+					};
+				};
+			};
+			buildConfigurationList = 900FC6C128EA1EE20099B14C /* Build configuration list for PBXProject "Great Dictator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 900FC6BD28EA1EE20099B14C;
+			productRefGroup = 900FC6C728EA1EE20099B14C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				900FC6C528EA1EE20099B14C /* Great Dictator */,
+				900FC6D528EA1EE40099B14C /* Great DictatorTests */,
+				900FC6DF28EA1EE40099B14C /* Great DictatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		900FC6C428EA1EE20099B14C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900FC6D128EA1EE40099B14C /* Preview Assets.xcassets in Resources */,
+				900FC6CE28EA1EE40099B14C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900FC6D428EA1EE40099B14C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900FC6DE28EA1EE40099B14C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		900FC6C228EA1EE20099B14C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C637EE28ECB3A1006A548A /* SwiftSpeechRecognizer.swift in Sources */,
+				901E91852900C8D600EEB7C9 /* URLSession.ext.swift in Sources */,
+				9028F33428EB9D1700C123EA /* String+UnsafeMutablePointer+CChar.ext.swift in Sources */,
+				9028F33328EB9D1700C123EA /* GraalThread.swift in Sources */,
+				900FC6CC28EA1EE20099B14C /* ContentView.swift in Sources */,
+				90B19A6C28EBA4CD0004A00C /* Dummy.m in Sources */,
+				90C637F028ECBD09006A548A /* CSpeechRecognizer.swift in Sources */,
+				90C637EC28ECB349006A548A /* SpeechCoreWrapper.swift in Sources */,
+				900FC6CA28EA1EE20099B14C /* Great_DictatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900FC6D228EA1EE40099B14C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900FC6DB28EA1EE40099B14C /* Great_DictatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900FC6DC28EA1EE40099B14C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900FC6E728EA1EE40099B14C /* Great_DictatorUITestsLaunchTests.swift in Sources */,
+				900FC6E528EA1EE40099B14C /* Great_DictatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		900FC6D828EA1EE40099B14C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 900FC6C528EA1EE20099B14C /* Great Dictator */;
+			targetProxy = 900FC6D728EA1EE40099B14C /* PBXContainerItemProxy */;
+		};
+		900FC6E228EA1EE40099B14C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 900FC6C528EA1EE20099B14C /* Great Dictator */;
+			targetProxy = 900FC6E128EA1EE40099B14C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		900FC6E828EA1EE40099B14C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(NATIVE_COMPILE)",
+					"$(APP_HEADERS)",
+					"$(JAVA_INCLUDE)",
+					"$(JAVA_INCLUDE_DARWIN)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		900FC6E928EA1EE40099B14C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(NATIVE_COMPILE)",
+					"$(APP_HEADERS)",
+					"$(JAVA_INCLUDE)",
+					"$(JAVA_INCLUDE_DARWIN)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		900FC6EB28EA1EE40099B14C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90B9D9A9290E41EB008438AA /* development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Great Dictator/Preview Content\"";
+				DEVELOPMENT_TEAM = 63YSBW32CP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "The app uses speech recognition for dictating notes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"$(JAVA_STATIC_LIBS)",
+					"$(NATIVE_COMPILE)",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.cequals.Great-Dictator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Great Dictator/Great Dictator-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		900FC6EC28EA1EE40099B14C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Great Dictator/Preview Content\"";
+				DEVELOPMENT_TEAM = 63YSBW32CP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "The app uses speech recognition for dictating notes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"$(JAVA_STATIC_LIBS)",
+					"$(NATIVE_COMPILE)",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.cequals.Great-Dictator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Great Dictator/Great Dictator-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		900FC6EE28EA1EE40099B14C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90B9D9A9290E41EB008438AA /* development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63YSBW32CP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.cequals.Great-DictatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Great Dictator.app/Great Dictator";
+			};
+			name = Debug;
+		};
+		900FC6EF28EA1EE40099B14C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63YSBW32CP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.cequals.Great-DictatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Great Dictator.app/Great Dictator";
+			};
+			name = Release;
+		};
+		900FC6F128EA1EE40099B14C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90B9D9A9290E41EB008438AA /* development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63YSBW32CP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.cequals.Great-DictatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Great Dictator";
+			};
+			name = Debug;
+		};
+		900FC6F228EA1EE40099B14C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63YSBW32CP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.cequals.Great-DictatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Great Dictator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		900FC6C128EA1EE20099B14C /* Build configuration list for PBXProject "Great Dictator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900FC6E828EA1EE40099B14C /* Debug */,
+				900FC6E928EA1EE40099B14C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900FC6EA28EA1EE40099B14C /* Build configuration list for PBXNativeTarget "Great Dictator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900FC6EB28EA1EE40099B14C /* Debug */,
+				900FC6EC28EA1EE40099B14C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900FC6ED28EA1EE40099B14C /* Build configuration list for PBXNativeTarget "Great DictatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900FC6EE28EA1EE40099B14C /* Debug */,
+				900FC6EF28EA1EE40099B14C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900FC6F028EA1EE40099B14C /* Build configuration list for PBXNativeTarget "Great DictatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900FC6F128EA1EE40099B14C /* Debug */,
+				900FC6F228EA1EE40099B14C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 900FC6BE28EA1EE20099B14C /* Project object */;
+}
