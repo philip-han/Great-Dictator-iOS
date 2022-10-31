@@ -1,7 +1,7 @@
 # Great-Dictator-iOS
 iOS demo app for GraalVM Native Image shared library
 
-Please create `development.xcconfig` file under project root directory in following this sample format:
+Please create `development.xcconfig` file under project root directory by following this sample format:
 
 ```
 USER_HOME=<your user home dir>
