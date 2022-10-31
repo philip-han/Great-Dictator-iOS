@@ -22,3 +22,5 @@ In this first iteration, only iOS simulator is tested. Some tweaks are necessary
 ## Using the app
 
 On iOS version, tap the **Dictate** button and start speaking, then tap **Dictate** button again to stop it. On Android, it will stop automatically when silence is detected after speaking.
+
+Of course, NLP server should be running for it to work properly. If the server is down, the app will display an error message.
