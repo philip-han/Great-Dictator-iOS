@@ -1,7 +1,3 @@
-//
-//  Dummy.m
-//  XBVR Scraper iOS
-//
 //  Created by Philip Han on 8/10/22.
 // https://github.com/gluonhq/substrate/blob/master/src/main/resources/native/ios/dummy.c
 //
