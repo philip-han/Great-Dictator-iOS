@@ -18,3 +18,7 @@ JAVA_STATIC_LIBS=$(USER_HOME)/.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-
 You'll need to make sure `dictator_graal` [project](https://github.com/philip-han/dictator_graal) is built before building this app.
 
 In this first iteration, only iOS simulator is tested. Some tweaks are necessary for actual device, .e.g. ios-aarch64 libs.
+
+## Using the app
+
+On iOS version, tap the **Dictate** button and start speaking, then tap **Dictate** button again to stop it. On Android, it will stop automatically when silence is detected after speaking.
