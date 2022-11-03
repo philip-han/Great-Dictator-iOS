@@ -49,8 +49,10 @@ class SpeechCoreWrapper: NSObject, ObservableObject {
         errorDispatcherFunc = { speechCoreWrapperAsPointer, errorMessage in
             if let unwrappedPointer = speechCoreWrapperAsPointer {
                 let speechCoreWrapper = Unmanaged<SpeechCoreWrapper>.fromOpaque(unwrappedPointer).takeUnretainedValue()
-                DispatchQueue.main.async {
-                    speechCoreWrapper.errorMessageState = errorMessage.toString()
+                if let errorMessageUnwrapped = errorMessage {
+                    DispatchQueue.main.async {
+                        speechCoreWrapper.errorMessageState = errorMessageUnwrapped.toString()
+                    }
                 }
             }
         }
